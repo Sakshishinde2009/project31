@@ -46,7 +46,7 @@ class PlayerArrow {
            at all the positions stored in trajectory array
            *******/
       for(var i = 0; i < this.trajectory.length;i++){
-        this.trajectory[position].show();
+        this.trajectory[position].display();
       }
   
   }
